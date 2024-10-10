@@ -1,4 +1,4 @@
-const students = ["Kitson", "mark", "wad"];
+/*const students = ["Kitson", "mark", "wad"];
 //console.log(students[0]);
 //students.forEach((student) => console.log(student));
 
@@ -20,4 +20,4 @@ movies.forEach((movie) => console.log(movie.title));
 const newmovies = movies.filter((movie) => movie.release > 1990);
 console.log(newmovies);
 
-//
+*/

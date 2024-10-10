@@ -1,19 +1,19 @@
 const DOMSelectors = {
   header: document.querySelector("h1"),
-  description: document.querySelector(".card-desc"),
-  items: document.querySelector("li"),
+  items: document.querySelectorAll("li"),
+  image: document.getElementById("cardIMG"),
+  card: document.getElementById("Card"),
+  Desc: document.getElementById("Desc"),
 };
-const studnet = {
-  name: "Mark",
-};
-console.log(DOMSelectors.items);
 
-function changecolor() {
+function Form() {
   let form = document.querySelector("form");
-  form.addEventListener("submit", function (event) {
+
+  form.addEventListener("enter", function (event) {
     event.preventDefault();
 
     console.log(event.target);
   });
 }
-changecolor();
+
+form();
