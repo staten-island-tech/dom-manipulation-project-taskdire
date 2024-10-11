@@ -7,19 +7,21 @@
   </head>
   <body>
     <h1>Put in your card info here</h1>
-    <h2>Put in the information for the card you want</h2>
-    <form action="">
-      <label for="cardIMG">Card Image:</label>
-      <input type="text" name="cardIMG" /><br /><br />
+    <label for="image">Image URL:</label>
+    <input type="text" id="image" /><br /><br />
 
-      <label for="card"> Card Title:</label>
-      <input type="text" name="card" /><br /><br />
+    <label for="card">Title:</label>
+    <input type="text" id="card" /><br /><br />
 
-      <label for="Desc">Desc:</label>
-      <input type="text" name="cardDesc" /><br /><br />
+    <label for="Desc">Description:</label>
+    <input type="text" id="Desc" /><br /><br />
 
-      <button type="Enter">Enter</button>
-    </form>
+    <button type="button" id="btn">Create Card</button>
+    <!-- Change type to "button" -->
+
+    <div id="container"></div>
+    <!-- Ensure there is a container for cards -->
+
     <script src="index.js"></script>
   </body>
 </html>
