@@ -3,24 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM stuffs</title>
   </head>
   <body>
-    <h1>Put in your card info here</h1>
-    <label for="image">Image URL:</label>
-    <input type="text" id="image" /><br /><br />
-
-    <label for="card">Title:</label>
-    <input type="text" id="card" /><br /><br />
-
-    <label for="Desc">Description:</label>
-    <input type="text" id="Desc" /><br /><br />
-
-    <button type="button" id="btn">Create Card</button>
-    <!-- Change type to "button" -->
-
-    <div id="container"></div>
-    <!-- Ensure there is a container for cards -->
+    <form action="">
+      <h3>Title:</h3>
+      <input type="text" id="title" />
+      <button id="sigmabutton" type="submit">Submit</button>
+      <h3>Desc:</h3>
+      <input type="text" id="desc" />
+    </form>
+    <img src="" alt="" />
+    <div class="parent"></div>
 
     <script src="index.js"></script>
   </body>
